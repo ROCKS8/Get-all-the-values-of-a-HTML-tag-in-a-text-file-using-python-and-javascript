@@ -103,8 +103,7 @@ function download(strData, strFileName, strMimeType) {
     text = file.write(inp_str)
     file.close()
     
-    file = open("Src_code.html", "r", encoding="utf-8")
-
+    # Opening the file in browser
     webbrowser.open('Src_code.html')
 
 except:
