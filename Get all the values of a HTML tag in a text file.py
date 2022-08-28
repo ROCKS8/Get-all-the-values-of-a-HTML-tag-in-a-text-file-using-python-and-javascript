@@ -99,10 +99,10 @@ function download(strData, strFileName, strMimeType) {
 
 </script>"""
 
-    # writing input string to t
+    # writing input string to the file and closing the file
     text = file.write(inp_str)
     file.close()
-
+    
     file = open("Src_code.html", "r", encoding="utf-8")
 
     webbrowser.open('Src_code.html')
